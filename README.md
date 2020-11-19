@@ -34,7 +34,7 @@ I made a patched mangohud that works on this gpu, it's in arch aur, mangohud-ope
 
 many games are buggy with it though, for example xonotic blackscreens and 0ad crashes
 
-# Terraria (GOG version)
+# Terraria 1.4.1.1 (GOG version)
 
     Kernel 5.8.13-gnu-1
     Mesa 20.2.2-2
@@ -45,7 +45,7 @@ stable 60fps at 800x600
 * quality: low, background: off, heat distortion: disabled, storm effects: disabled,
   waves quality: off
 
-# 0ad
+# 0ad a23.1
 
     Kernel 5.8.13-gnu-1
     Mesa 20.2.2-2
@@ -59,7 +59,7 @@ put the following in `~/.config/0ad/config/local.cfg`
 
     novbo=true
 
-# xonotic
+# xonotic 0.8.2
 
     Kernel 5.8.13-gnu-1
     Mesa 20.2.2-2
@@ -76,7 +76,7 @@ put the following in `~/.config/0ad/config/local.cfg`
         showfps 1
         saveconfig
 
-# Pocket Mirror (wine)
+# Pocket Mirror 1.3 (wine)
 
     Kernel 5.8.13-gnu-1
     Mesa 20.2.2-2
@@ -84,7 +84,7 @@ put the following in `~/.config/0ad/config/local.cfg`
 
 60fps, resolution is fixed at 640x480
 
-# openarena
+# openarena 0.8.8
 
     Kernel 5.8.13-gnu-1
     Mesa 20.2.2-2
@@ -99,7 +99,7 @@ stable 125fps locked at 640x480
         com_maxfps 125
         writeconfig autoexec.cfg
 
-# minetest
+# minetest 5.3.0
 
 30-50 fps in fullscreen, 60fps if you resize the window to roughly 800x600, but the game has no
 way to fullscreen it scaled at low res so you're stuck playing in a small window
