@@ -22,13 +22,14 @@ some tips that apply to all games:
 * kill your compositor (I have picom, so I just `killall picom`)
 * set up zram to almost double your ram capacity for a small cpu overhead hit
 
-# glxosd
+# monitoring tools
+## glxosd
 I made a patched version to fix compilation errors and remove dependency on the proprietary nvidia
 lib. install glxosd-fix-git from aur
 
 works better than mangohud on this old gpu
 
-# mangohud (tool to show fps and stats)
+## mangohud (tool to show fps and stats)
 I made a patched mangohud that works on this gpu, it's in arch aur, mangohud-opengl2
 
 many games are buggy with it though, for example xonotic blackscreens and 0ad crashes
