@@ -70,10 +70,10 @@ put the following in `~/.config/0ad/config/local.cfg`
 * on effects set everything to low
 * open the console with the tilde/backtick key (left of 1) and type
 
-    r_showsurfaces 3
-    r_sky 0
-    showfps 1
-    saveconfig
+        r_showsurfaces 3
+        r_sky 0
+        showfps 1
+        saveconfig
 
 # Pocket Mirror (wine)
 
@@ -92,11 +92,11 @@ stable 125fps locked at 640x480
 
 * press the tilde/backtick key to open the console and type
 
-    r_vertexLight 1
-    cg_simpleItems 1
-    r_drawFPS 1
-    com_maxfps 125
-    writeconfig autoexec.cfg
+        r_vertexLight 1
+        cg_simpleItems 1
+        r_drawFPS 1
+        com_maxfps 125
+        writeconfig autoexec.cfg
 
 # minetest
 
